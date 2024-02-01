@@ -1,4 +1,5 @@
 <?php
+namespace Enc;
 Class Eleve {
     private $nom ;
     private $prenom ;
@@ -16,14 +17,6 @@ Class Eleve {
 
 }
 
-$mrRobert = new Eleve("Robert","Timothée");
-$mrFlores = new Eleve("Flores","Peter");
-$mrTandia = new Eleve("Tandia","Sekou");
-$mrSterenn = new Eleve("Gougeon","Sterenn");
-echo $mrRobert->Travaille();
-echo $mrFlores->Travaille();
-echo $mrTandia->Travaille();
-echo $mrSterenn->Travaille();
 
 
 
