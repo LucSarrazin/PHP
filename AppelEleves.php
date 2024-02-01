@@ -1,5 +1,5 @@
 <?php
-include 'Eleve.php';
+require 'Eleve.php';
 
 $mrRobert = new Eleve("Robert","Timothée");
 $mrFlores = new Eleve("Flores","Peter");
