@@ -2,14 +2,13 @@
 namespace Enc;
 require "../vendor/autoload.php";
 
-$mrRobert = new Eleve("Robert","Timothée");
-$mrFlores = new Eleve("Flores","Peter");
-$mrTandia = new Eleve("Tandia","Sekou");
-$mrSterenn = new Eleve("Gougeon","Sterenn");
-echo $mrRobert->Travaille();
-echo $mrFlores->Travaille();
-echo $mrTandia->Travaille();
-echo $mrSterenn->Travaille();
 
-$mrSTANDIA = new Eleve("Standia","Sekou");
-echo $mrSTANDIA->Travaille();
+$mmeMoustaquim = new Eleve("Moustaquim", "Aya") ;
+echo $mmeMoustaquim->travaille() ;
+
+$mrRobert = new Enseignant("Robert", "Timothée", "Informatique") ;
+$mrRobert->ajouteUnEleve($mmeMoustaquim) ;
+echo $mrRobert->enseigne() ;
+
+$mrSTandia = new Eleve("Tandia", "Sekou") ;
+echo $mrSTandia->travaille() ;

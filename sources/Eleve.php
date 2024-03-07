@@ -1,23 +1,20 @@
 <?php
 namespace Enc;
-Class Eleve {
-    private $nom ;
-    private $prenom ;
+class Eleve
+{
+    private $nom;
+    private $prenom;
 
-    public function __construct($unNom,$unPrenom){
-
-        $this->nom = $unNom;
-        $this->prenom = $unPrenom;
+    public function __construct($parametreNom, $parametrePrenom)
+    {
+        $this->nom = $parametreNom;
+        $this->prenom = $parametrePrenom;
     }
 
-    public function Travaille()
+    public function travaille(): string
     {
-        return "L'élève $this->nom $this->prenom vous travaillez comme il le faut \n";
+        return "Je suis l' élève $this->prenom $this->nom et je travaille sérieusement\n";
     }
 
 }
-
-
-
-
 
