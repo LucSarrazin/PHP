@@ -1,7 +1,8 @@
 <?php
 
-namespace Enc;
+namespace Tests;
 
+use Enc\Eleve;
 use PHPUnit\Framework\TestCase;
 
 class EleveTest extends TestCase
