@@ -16,5 +16,9 @@ class Eleve
         return "Je suis l' élève $this->prenom $this->nom et je travaille sérieusement\n";
     }
 
+    public function __toString() {
+        return "L'élève est: ".$this->prenom." ". $this->nom ;
+    }
+
 }
 
