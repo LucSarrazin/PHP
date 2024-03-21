@@ -16,6 +16,4 @@ class CSV
         fclose($file);
         return $line;*/
     }
-// Définir le chemin d'accès au fichier CSV
-
 }

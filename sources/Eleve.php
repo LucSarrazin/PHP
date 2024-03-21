@@ -5,6 +5,8 @@ class Eleve
     private $nom;
     private $prenom;
 
+    private $ListeNote = array();
+
     public function __construct($parametreNom, $parametrePrenom)
     {
         $this->nom = $parametreNom;
